@@ -85,7 +85,7 @@ export default async function HomePage() {
               <span className="font-semibold">Andra Daniela Campos</span>. As a
               high school student, I found it hard to connect with like-minded
               peers for initiatives I was passionate about. Thus, I created{" "}
-              <span className="font-semibold">Project Connect Forum</span> to
+              <span className="font-semibold">he</span> to
               empower students to develop themselves and pursue their dreams.
               Now, I&apos;m at{" "}
               <span className="font-semibold">Stanford University</span> working

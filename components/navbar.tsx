@@ -77,7 +77,7 @@ export const Navbar: React.FC = () => {
             className="flex items-center space-y-1 px-4 py-2 text-lg font-bold"
           >
             <div className="relative size-6">
-              <Image fill src="/PCFLogo4.png" alt="logo" />
+              <Image fill src="/helogo.png" alt="logo" />
             </div>
           </Link>
         </div>
@@ -122,7 +122,7 @@ export const Navbar: React.FC = () => {
                     Forum
                   </MobileLink>
                   <MobileLink
-                    href="https://www.instagram.com/projectconnectforum"
+                    href="https://www.instagram.com/asd"
                     onOpenChange={setOpen}
                   >
                     Instagram
@@ -132,12 +132,6 @@ export const Navbar: React.FC = () => {
                     onOpenChange={setOpen}
                   >
                     Passion Project Guide
-                  </MobileLink>
-                  <MobileLink
-                    href="https://ko-fi.com/projectconnect"
-                    onOpenChange={setOpen}
-                  >
-                    Passion Project Counseling
                   </MobileLink>
 
                   <MobileLink
@@ -160,7 +154,7 @@ export const Navbar: React.FC = () => {
             className="flex items-center space-y-1 px-4 py-2 text-lg font-bold"
           >
             <div className="relative size-6">
-              <Image fill src="/PCFLogo4.png" alt="logo" />
+              <Image fill src="/helogo.png" alt="logo" />
             </div>
           </Link>
 
@@ -189,7 +183,7 @@ export const Navbar: React.FC = () => {
 
                 <NavigationMenuItem>
                   <NavigationMenuLink
-                    href="https://www.instagram.com/projectconnectforum"
+                    href="https://www.instagram.com/asd"
                     className={navigationMenuTriggerStyle()}
                   >
                     <Instagram className="h-4 w-4" />
@@ -207,7 +201,7 @@ export const Navbar: React.FC = () => {
                   <DropdownMenuContent>
                     <DropdownMenuItem asChild>
                       <Link
-                        href="https://ko-fi.com/s/17bd54cbf0"
+                        href="https://ko-fi.com/"
                         target="_blank"
                       >
                         <Book className="mr-2 h-4 w-4" />
@@ -216,7 +210,7 @@ export const Navbar: React.FC = () => {
                     </DropdownMenuItem>
                     <DropdownMenuItem asChild>
                       <Link
-                        href="https://ko-fi.com/projectconnect"
+                        href="https://ko-fi.com/asd"
                         target="_blank"
                       >
                         <Tv className="mr-2 h-4 w-4" />

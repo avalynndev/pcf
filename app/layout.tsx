@@ -69,7 +69,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <meta name="apple-mobile-web-app-title" content="PCF" />
+      <meta name="apple-mobile-web-app-title" content="he" />
       <body
         className={`
           ${breakfastNoodles.variable}

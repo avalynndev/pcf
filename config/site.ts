@@ -1,8 +1,8 @@
 export const siteConfig = {
-  name: "ProjectConnectForum",
-  url: "https://projectconnectforum.com/",
+  name: "asd",
+  url: "https://test.com/",
   description:
-    "ProjectConnect is a forum and one-stop-shop for youth-led initiatives to recruit members, as well as for high school students to find extracurriculars! ",
+    "asd is a forum and one-stop-shop for youth-led initiatives to recruit members, as well as for high school students to find extracurriculars! ",
   links: {
     github: "https://github.com/avalynndev/",
     author: "https://github.com/avalynndev",
@@ -10,14 +10,14 @@ export const siteConfig = {
   },
   authorUrl: "https://github.com/avalynndev",
   keywords: [
-    "projectconnectforum",
+    "asd",
     "extracurriculars",
-    "pcf",
-    "projectconnect",
+    "asd",
+    "asd",
     "EC",
     "ECs",
   ],
-  ogImage: "https://projectconnectforum.com//og.webp",
+  ogImage: "https://test.com//og.webp",
 };
 
 export type SiteConfig = typeof siteConfig;
