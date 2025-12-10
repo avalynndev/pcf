@@ -36,13 +36,13 @@ export const SiteFooter = () => {
         <div className="mx-auto flex max-w-6xl flex-col gap-4 md:flex-row md:items-center md:justify-between md:gap-0">
           <div className="flex items-center gap-2">
             <Image
-              src="/helogo.png"
-              alt="he"
+              src="/PCFLogo4.png"
+              alt="Pcf"
               width={32}
               height={32}
               className="rounded-full"
             />
-            <h2 className="text-md font-normal"> he</h2>
+            <h2 className="text-md font-normal">Project Connect Forum</h2>
           </div>
 
           <div className="flex items-center gap-2">
@@ -56,7 +56,7 @@ export const SiteFooter = () => {
           </div>
 
           <div className="flex items-center gap-2 [&_a]:rounded-full [&_a]:border [&_a]:px-3 [&_a]:py-1 [&_a]:shadow">
-            <Link href="https://instagram.com/asd">
+            <Link href="https://instagram.com/projectconnectforum">
               <InstagramLogoIcon />
             </Link>
           </div>

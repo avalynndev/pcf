@@ -9,6 +9,12 @@ export default async function HomePage() {
     <div className="flex min-h-screen flex-col items-center justify-center overflow-hidden px-4">
       <div className="flex flex-col items-center space-y-10">
         <HeroLanding />
+
+        <div className="container flex max-w-screen-md flex-col gap-5 text-center">
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <InfoCard />
+          </div>
+        </div>
       </div>
       <div className="container mx-auto max-w-screen-lg px-6 py-16 pt-32">
         <HeaderSection
@@ -30,8 +36,7 @@ export default async function HomePage() {
               link: "https://ko-fi.com/s/398540068e",
             },
             {
-              title:
-                "Get a Story Shoutout & Recruit Members! Reach 4,000+ story viewers!",
+              title: "Get a Story Shoutout & Recruit Members! Reach 4,000+ story viewers!",
               img: "/shoutout.png",
               link: "https://ko-fi.com/s/7b1799bc3f",
             },
@@ -81,15 +86,14 @@ export default async function HomePage() {
           <div className="mt-6 md:mt-0 md:ml-8 md:w-2/3">
             <h2 className="text-2xl font-bold">Founder</h2>
             <p className="mt-4 leading-relaxed">
-              This website was founded by{" "}
-              <span className="font-semibold">Andra Daniela Campos</span>. As a
-              high school student, I found it hard to connect with like-minded
-              peers for initiatives I was passionate about. Thus, I created{" "}
-              <span className="font-semibold">he</span> to
-              empower students to develop themselves and pursue their dreams.
-              Now, I&apos;m at{" "}
-              <span className="font-semibold">Stanford University</span> working
-              to inspire the next generation of change-makers.
+               This website was founded by{" "}
+        <span className="font-semibold">Andra Daniela Campos</span>. As a
+        high school student, I found it hard to connect with like-minded
+        peers for initiatives I was passionate about. Thus, I created{" "}
+        <span className="font-semibold">Project Connect Forum</span> to empower
+        students to develop themselves and pursue their dreams. Now, I&apos;m at{" "}
+        <span className="font-semibold">Stanford University</span> working
+        to inspire the next generation of change-makers.
             </p>
           </div>
         </div>

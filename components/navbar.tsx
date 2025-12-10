@@ -77,7 +77,7 @@ export const Navbar: React.FC = () => {
             className="flex items-center space-y-1 px-4 py-2 text-lg font-bold"
           >
             <div className="relative size-6">
-              <Image fill src="/helogo.png" alt="logo" />
+              <Image fill src="/PCFLogo4.png" alt="logo" />
             </div>
           </Link>
         </div>
@@ -119,10 +119,10 @@ export const Navbar: React.FC = () => {
               <ScrollArea className="my-4 h-[calc(100vh-8rem)] pb-10 pr-6">
                 <div className="flex flex-col space-y-3">
                   <MobileLink href="/projects" onOpenChange={setOpen}>
-                    Forum
+                    Projects
                   </MobileLink>
                   <MobileLink
-                    href="https://www.instagram.com/asd"
+                    href="https://www.instagram.com/projectconnectforum"
                     onOpenChange={setOpen}
                   >
                     Instagram
@@ -132,6 +132,12 @@ export const Navbar: React.FC = () => {
                     onOpenChange={setOpen}
                   >
                     Passion Project Guide
+                  </MobileLink>
+                  <MobileLink
+                    href="https://ko-fi.com/projectconnect"
+                    onOpenChange={setOpen}
+                  >
+                    Passion Project Counseling
                   </MobileLink>
 
                   <MobileLink
@@ -154,7 +160,7 @@ export const Navbar: React.FC = () => {
             className="flex items-center space-y-1 px-4 py-2 text-lg font-bold"
           >
             <div className="relative size-6">
-              <Image fill src="/helogo.png" alt="logo" />
+              <Image fill src="/PCFLogo4.png" alt="logo" />
             </div>
           </Link>
 
@@ -177,13 +183,13 @@ export const Navbar: React.FC = () => {
                     className={navigationMenuTriggerStyle()}
                   >
                     <ScrollText className="h-4 w-4" />
-                    <div className="px-2"> Forum </div>
+                    <div className="px-2"> Projects </div>
                   </NavigationMenuLink>
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
                   <NavigationMenuLink
-                    href="https://www.instagram.com/asd"
+                    href="https://www.instagram.com/projectconnectforum"
                     className={navigationMenuTriggerStyle()}
                   >
                     <Instagram className="h-4 w-4" />
@@ -201,7 +207,7 @@ export const Navbar: React.FC = () => {
                   <DropdownMenuContent>
                     <DropdownMenuItem asChild>
                       <Link
-                        href="https://ko-fi.com/"
+                        href="https://ko-fi.com/s/17bd54cbf0"
                         target="_blank"
                       >
                         <Book className="mr-2 h-4 w-4" />
@@ -210,7 +216,7 @@ export const Navbar: React.FC = () => {
                     </DropdownMenuItem>
                     <DropdownMenuItem asChild>
                       <Link
-                        href="https://ko-fi.com/asd"
+                        href="https://ko-fi.com/projectconnect"
                         target="_blank"
                       >
                         <Tv className="mr-2 h-4 w-4" />
