@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<center> <h1><a href="https://pcfweb.vercel.app/"> project connect forum</a> </h1></center>
 
-## Getting Started
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,ts" />
+  <br/>
+  <a href=""><kbd>shadcn-ui</kbd></a>
+</p>
+<br/><br/>
 
-First, run the development server:
+# What is ProjectConnectForum?
 
+This repository contains the upcoming website for Project Connect Forum, a platform where students connect through projects and opportunities.
+Here is the [video]() showing how it works.
+
+and i just realized i forgot to commit these changes and submit the project (after a whole week. sorry!)
+
+# How to run it yourself
+
+### What you need
+
+- Node.js 20 or newer
+- npm or bun
+
+### Setup
+
+1. Download the code:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/avalynndev/pcf.git
+cd pcf
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install stuff:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Add your settings in [this file](https://github.com/avalynndev/pcf/blob/main/app/projects/page.tsx#L18-L26):
+```bash
+const firebaseConfig = {
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: "",
+};
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Start it up:
+```bash
+npm run dev
+```
 
-## Learn More
+5. Go to [http://localhost:3000](http://localhost:3000)
 
-To learn more about Next.js, take a look at the following resources:
+### Make it live
+```bash
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Favalynndev%2Fpcf)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
