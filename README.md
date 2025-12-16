@@ -10,7 +10,7 @@
 # What is ProjectConnectForum?
 
 This repository contains the upcoming website for Project Connect Forum, a platform where students connect through projects and opportunities.
-Here is the [video]() showing how it works.
+Here is the [video](https://youtu.be/xzqY0LvXo-M) showing how it works.
 
 and i just realized i forgot to commit these changes and submit the project (after a whole week. sorry!)
 
